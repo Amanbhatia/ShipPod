@@ -25,9 +25,17 @@ Alternatively, you can also run  the jar by using below maven command.
 mvn spring-boot:run
 ```
 
-## Running the tests
+## Browse and test
 
-Go to the browser and open below URL http://localhost:5000/api/?_wadl. You should see WADL of the webservice.
-Swagger JSON document URL:  http://localhost:5000/api/swagger.json
-Swagger UI: http://localhost:5000/api/api-docs?url=/api/swagger.json
-
+Go to the browser and open below URL, to see the WADL
+ ```
+http://localhost:5000/api/?_wadl.
+```
+Swagger JSON document URL.
+ ```
+ http://localhost:5000/api/swagger.json
+```
+Swagger UI URL.
+ ```
+ http://localhost:5000/api/api-docs?url=/api/swagger.json
+```
